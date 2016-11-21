@@ -12,7 +12,16 @@ class HelloWorld extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.hello}>Hello, Worldasdfasdfasdfasd</Text>
+        <Text style={styles.hello}>Hello, World xqf coming here  dd </Text>
+      </View>
+    )
+  }
+}
+class HelloWorld2 extends React.Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.hello}>Hello aaaaa</Text>
       </View>
     )
   }
@@ -30,4 +39,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
+AppRegistry.registerComponent('HelloWorld', () => HelloWorld2);
